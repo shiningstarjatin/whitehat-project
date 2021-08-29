@@ -1,0 +1,114 @@
+body {
+    text-align: center;
+    padding-top: 600px;
+
+}
+
+#pic {
+    height: 300px;
+    width: 100px;
+    border-radius: 30%;
+}
+
+#Welcome {
+    position: absolute;
+    overflow: hidden;
+    color: aqua;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 600px;
+    width: 100%;
+
+    background: linear-gradient(#fff700 0%,
+            #ff0000 100%);
+    opacity: .8;
+    display: table;
+    z-index: 9;
+
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: auto;
+
+}
+
+.menu {
+    list-style: none;
+    position: fixed right: 20px;
+    cursor: pointer;
+    z-index: 10;
+    top: 0px;
+    width=100%;
+
+}
+
+.link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    font-family: fantasy;
+    display: inline;
+
+}
+
+a {
+    color: #26ff00;
+    text-decoration: none;
+
+}
+
+.line {
+    width: 50px;
+    height: 6px;
+    background-color: #3c00ff;
+    margin: 8px auto;
+}
+
+.link:hover {
+    background-color: yellow;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+] p {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 5x;
+}
+
+#name {
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+#bio {
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+h`1 {}
+
+h2 {}
+
+.article:hover {
+    background-color: blue;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#Writting a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: aqua ! important;
+
+}
